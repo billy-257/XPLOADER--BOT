@@ -15,11 +15,11 @@ if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 
 
 //=================================================//
-global.SESSION_ID = process.env.SESSION_ID || '' 
+global.SESSION_ID = process.env.SESSION_ID || 'XPLOADER-BOT:~myRUTSDK#tgfeaEmtVO6tWHg3rWt2J4pGakpJTihsjnyoulJjyjY' 
 //Enter your Xploader session id here; must start with XPLOADER-BOT:~
 
 //=================================================//
-global.botname = process.env.BOT_NAME || '᙭ᑭᒪOᗩᗪᗴᖇ ᗷOT' 
+global.botname = process.env.BOT_NAME || 'BILLY' 
 //Your desired bot name
 
 //=================================================//
@@ -27,7 +27,7 @@ global.ownernumber = process.env.OWNER_NUMBER || '254754783972'
 //Type your main number here
 
 //=================================================//
-global.sudo = process.env.SUDO ? process.env.SUDO.split(',') : ['254796180105', '254712345678'];
+global.sudo = process.env.SUDO ? process.env.SUDO.split(',') : ['254796180105', '256773709553'];
 // Type additional allowed users here
 //NB: They'll be able to use every functions of the bot without restrictions.
 
@@ -39,10 +39,10 @@ global.ownername = process.env.OWNER_NAME || 'Tylor'
 global.plink = process.env.PLINK || "https://www.instagram.com/heyits_tylor?igsh=YzljYTk1ODg3Zg=="
 
 //=================================================//
-global.wm = process.env.GL_WM || "©᙭ᑭᒪOᗩᗪᗴᖇ ᗷOT"
+global.wm = process.env.GL_WM || "©BILLY ᗷOT"
 
 //=================================================//
-global.packname = process.env.STICKER_PACK_NAME || "᙭ᑭᒪOᗩᗪᗴᖇ" 
+global.packname = process.env.STICKER_PACK_NAME || "BILLY" 
 //The sticker pack name
 
 //=================================================//
@@ -58,7 +58,7 @@ global.mode = process.env.MODE || 'public';
 // Set to 'private' to enable private mode, otherwise default is 'public'
 
 //=================================================//
-global.statusemoji = process.env.STATUS_EMOJI || '🧡'
+global.statusemoji = process.env.STATUS_EMOJI || '❤️'
 //Enter the emoji that you wish to be reacted to statuses 
 
 //=================================================//
@@ -66,7 +66,7 @@ global.autoviewstatus = process.env.AUTO_STATUS_VIEW || 'true'
 // set true to enable and false to disable auto status view
 
 //=================================================//
-global.autoreactstatus = process.env.AUTO_STATUS_REACT || 'false'
+global.autoreactstatus = process.env.AUTO_STATUS_REACT || 'true'
 // set true to enable and false to disable auto status react
 
 //=================================================//
@@ -107,7 +107,7 @@ global.menustyle = process.env.MENU_STYLE || '2'
 //Replies
 global.mess = { 
   done: '*Done*', 
-  success: '©᙭ᑭᒪOᗩᗪᗴᖇ ᗷOT', 
+  success: '©BILLY', 
   owner: `*You don't have permission to use this command!*`, 
   group: '*This feature becomes available when you use it in a group!*', 
   admin: '*You’ll unlock this feature with me as an admin!*', 
